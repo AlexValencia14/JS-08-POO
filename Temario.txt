@@ -1,0 +1,41 @@
+NOTAS DE CLASE EN SCRIPTPOO.JS
+
+	Paradigmas de la programación:
+		Programación imperativa
+		Programación basada en eventos
+		Programación declarativa
+		Programación Orientada a Objetos
+
+	Estructura general de una clase
+		class nomClase{
+			1. Propiedades
+			3. Constructor(atributo1, atributo2, atributo3){
+				this.atributo1 = atributo1
+				}
+			2. Metodos
+				hablar(){
+				//codigo
+				}
+			}
+
+	Instanciar
+		let variable= new nomClase ('valor1', 'valor2', 'valor3')
+
+	
+	Pilares de la programación
+		herencia --> class nomClase2 extends nomClase { 
+			1. Propiedades
+			3. constructor (atributo4, atributo5){
+				super (atributo1, atributo2, atributo3)
+			2. Metodos
+				hablar(){
+				//codigo
+				}
+			}
+
+		polimorfismo
+		encapsulamiento
+		abstracción
+	
+	Instanciar con herencia
+		let variable= new nomClase2 ('valor1', 'valor2', 'valor3', 'valor4', 'valor5')
